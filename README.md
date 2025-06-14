@@ -21,4 +21,10 @@ docker run -it --rm \
   -w /workspace/bottender \
   ros2-humble-mamba
 
+
+ros2 pkg create --build-type ament_python ai_hackathon
+colcon build
+source install/setup.bash
+ros2 run aihackathon my_node
+
 ```
