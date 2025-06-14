@@ -22,6 +22,13 @@ docker run -it --rm \
   ros2-humble-mamba
 
 
+# Mounting both the example bag and the repository
+docker run -it --rm \
+  -v /Users/pkm/Projects/bottender:/workspace/bottender -v /Users/pkm/Downloads/rosbag2_2025_06_12-18_29_00:/rosbags/my_bag \
+  -w /workspace/bottender \
+  ros2-humble-mamba
+
+
 ros2 pkg create --build-type ament_python ai_hackathon
 colcon build
 source install/setup.bash
