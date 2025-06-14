@@ -1,0 +1,7 @@
+string method
+TrajectoryPoint[] path
+float32[] times
+---
+bool done
+---
+bool done

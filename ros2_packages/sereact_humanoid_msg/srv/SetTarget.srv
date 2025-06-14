@@ -1,0 +1,6 @@
+# Request
+float32[] target  # Array of float32 values to be processed
+float32 time 3 # The seconds to execute the target
+---
+# Response
+bool success        # True if processing was successful 

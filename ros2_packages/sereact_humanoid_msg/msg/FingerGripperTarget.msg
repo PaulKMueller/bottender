@@ -1,0 +1,4 @@
+std_msgs/Header header
+
+float32 position_normalized
+float32 position_m

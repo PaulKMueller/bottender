@@ -1,0 +1,14 @@
+std_msgs/Header header
+float32[] head_mat
+float32[] left_wrist
+float32[] right_wrist
+float32[] left_qpos
+float32[] right_qpos
+float32[] left_hand_tips
+float32[] right_hand_tips
+float32[] joint_state_target
+string[] right_hand_joint_names
+string[] left_hand_joint_names
+float32 finger_distance
+float32 normalized_finger_distance
+bool active

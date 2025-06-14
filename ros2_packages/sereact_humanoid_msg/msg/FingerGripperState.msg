@@ -1,0 +1,8 @@
+std_msgs/Header header
+int32 position_mm
+float32 position_m
+float32 position_normalized
+
+int32 act_position_mm
+float32 act_position_m
+float32 act_position_normalized

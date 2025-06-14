@@ -1,0 +1,5 @@
+sensor_msgs/Image image   # Input: Image for object detection
+---
+float32 u                 # Output: u coordinate of the object's center
+float32 v                 # Output: v coordinate of the object's center
+sensor_msgs/Image debug_image # circle on the image
