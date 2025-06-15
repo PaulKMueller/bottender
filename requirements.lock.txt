@@ -10,7 +10,7 @@ attrs==25.3.0
 av==14.4.0
 beautifulsoup4==4.13.4
 blinker==1.9.0
-certifi==2025.4.26
+certifi==2025.6.15
 cffi==1.17.1
 charset-normalizer==3.4.2
 click==8.2.1
@@ -21,7 +21,7 @@ deepdiff==8.5.0
 diffusers==0.33.1
 dill==0.3.8
 docopt==0.6.2
-draccus==0.10.0
+draccus==0.11.5
 einops==0.8.1
 evdev==1.9.2
 Farama-Notifications==0.0.4
@@ -46,7 +46,7 @@ inquirerpy==0.3.4
 itsdangerous==2.2.0
 Jinja2==3.1.6
 jsonlines==4.0.0
-lerobot @ git+https://github.com/huggingface/lerobot.git@b8637c09ec93ca30d7901f5fdcf47aa4020cfe89
+lerobot @ git+https://github.com/huggingface/lerobot.git@1c15bab70f364c62bf2df94fc838a479e87f7d72
 llvmlite==0.44.0
 MarkupSafe==3.0.2
 mergedeep==1.3.4
@@ -74,6 +74,7 @@ nvidia-nccl-cu12==2.26.2
 nvidia-nvjitlink-cu12==12.6.85
 nvidia-nvtx-cu12==12.6.77
 omegaconf==2.3.0
+opencv-python==4.11.0.86
 opencv-python-headless==4.11.0.86
 orderly-set==5.4.1
 packaging==25.0
@@ -89,7 +90,7 @@ pyarrow==20.0.0
 pycparser==2.22
 pydantic==2.11.7
 pydantic_core==2.33.2
-pymunk==6.11.1
+pymunk==7.0.1
 pynput==1.8.1
 pyserial==3.5
 PySocks==1.7.1

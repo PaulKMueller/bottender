@@ -20,6 +20,7 @@ setup(
         'console_scripts': [
 		'my_node = ai_hackathon.my_node:main',
         'gripper_loop = gripper_loop.gripper_loop_node:main',
+        'policy_inference_node = your_package.policy_inference_node:main',
         ],
     },
 )
