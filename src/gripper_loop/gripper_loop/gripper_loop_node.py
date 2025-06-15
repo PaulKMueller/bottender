@@ -9,7 +9,7 @@ import time
 class GripperLoopNode(Node):
     def __init__(self):
         super().__init__('gripper_loop_node')
-        self.pub = self.create_publisher(Teleop, '/teleop', 10)
+        self.pub = self.create_publisher(Teleop, '/gripper/target', 10)
         self.timer = self.create_timer(2.0, self.timer_callback)  # every 2 seconds
         self.closed = False
         self.get_logger().info("Gripper loop node started.")
