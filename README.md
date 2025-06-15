@@ -29,6 +29,11 @@ docker run -it --rm \
   ros2-humble-mamba
 
 
+# Creating a new package with ROS2
+cd ~/ros2_ws/src
+ros2 pkg create --build-type ament_python gripper_loop --dependencies rclpy std_msgs sereact_humanoid_msg
+
+
 ros2 pkg create --build-type ament_python ai_hackathon
 colcon build
 source install/setup.bash
